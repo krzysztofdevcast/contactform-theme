@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:200,300,500,400,600");
+@import "~tachyons-sass/tachyons.scss";
+
+body {
+  font-family: Roboto, 'sans-serif';
+  background-color: #474BC1;
+  color: white;
+}
+
+*:focus {
+  outline:none;
+}
+
+.primary {
+  color: #161985;
+}
+
+.primary-light {
+  color: #6568EA;
+}
+
+.bg-primary {
+  background-color: #35379F;
+}
+
+.b--primary {
+  border-color: #161985;
+}
+
+.bg-cloud {
+  background-color: #FAFAFA;
+}
+
+.shadow-primary {
+  box-shadow: 0 2px 4px 0px #222470;
+}
+
+.Heading {
+  @extend .f4, .fw3, .mt4, .mb4;
+}
+
+.Input {
+  @extend .w-100, .bg-cloud, .br2, .shadow-primary, .bn, .pa3, .f5, .primary;
+}
+
+.Input__Small {
+  @extend .bg-cloud, .br2, .shadow-primary, .bn, .pa3, .f5, .primary;
+}
+
+.Button {
+  @extend .bg-primary, .db, .bn, .pa3, .w-100, .white, .br2, .shadow-primary, .pointer, .dim;
+}
+
+.Button__Selected {
+  @extend .bg-white, .db, .bn, .pa3, .w-100, .primary, .br2, .shadow-primary, .pointer, .dim;
+}
+
+.Button__Small {
+  @extend .bg-primary, .db, .bn, .pa3, .white, .br2, .shadow-primary, .pointer, .dim;
+}

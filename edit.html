@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <title>Contact Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="dist/app.css">
+</head>
+<body>
+    <div id="app">
+        <!-- NAVBAR -->
+        <div class="db dt-ns w-100 pv4 ph2 ph3-m ph5-l">
+            <div class="db dtc-ns tc tl-ns mb3 mb0-ns v-mid">
+                <div class="dt center fl-ns">
+                    <div class="dtc v-mid pr2">
+                        <img src="img/logo.svg" alt="" style="height: 30px;">
+                    </div>
+                    <div class="dtc v-mid">
+                        <h1 class="f5 fw3">
+                            contact<strong>form</strong>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="dtc-ns tc tr-ns v-mid">
+                <a href="#" class="f6 link white pa3 ttu fw3 dim db dib-ns">
+                    user@example.com
+                </a>
+                <a href="#" class="ph3 pv2 bg-white primary ttu link f6 br2 shadow-primary dim db dib-ns">
+                    Wyloguj
+                </a>
+            </div>
+        </div>
+        <!-- /NAVBAR -->
+        
+        <!-- CONTENT -->
+        <div class="tc tl-ns ph3 pv3 ph6-ns pv5-ns">
+
+            <div class="flex-l w-100 justify-between">
+                <!-- LEFT -->
+                <div class="w-100 mb5 mb0-l">
+                    <img src="img/cog.png" alt="">
+
+                    <h2 class="Heading">
+                        Edycja formularza
+                    </h2>
+
+                    <label for="website" class="db f6 fw2 mb2">
+                        Adres strony internetowej
+                    </label>
+
+                    <div class="mw6 mb4 ">
+                        <input class="Input"
+                               value="http://website.com"
+                               type="email" name="website" id="website" required>
+                    </div>
+
+                    <label for="return" class="db f6 fw2 mb2">
+                        Powrót na adres URL po wysłaniu formularza
+                    </label>
+
+                    <div class="mw6 mb4 ">
+                        <input class="Input"
+                               value="http://website.com?thankyou=true"
+                               type="email" name="return_url" id="return" required>
+                    </div>
+
+                    <div class="mw6">
+                        <button type="submit"
+                                class="Button">
+                            OK
+                        </button>
+                    </div>
+                </div>
+                <!-- RIGHT -->
+                <div class="bl-l b--primary pl5-l w-100">
+                    <img src="img/globe.png" alt="">
+
+                    <h2 class="Heading">
+                        Kod na Twoją stronę www
+                    </h2>
+
+                    <label for="website" class="db f6 fw2 mb2">
+                        <p>Skopiuj ten kod na swoją stronę www.</p>
+                        <p>Zastąp input i textarea swoimi polami.</p>
+                    </label>
+
+                    <div class="mw6 mb4 ">
+                        <textarea class="Input" cols="80" rows="10">
+&lt;form method="POST"
+      action="https://contactform.pl/f/fa54w-fdg54-gfdgf-654gfd"&gt;
+
+    &lt;input type="text" name="email"&gt;
+
+    &lt;textarea name="Treść wiadomości"&gt;&lt;/textarea&gt;
+
+    &lt;button type="submit"&gt;Wyślij wiadomość&lt;/button&gt;
+&lt;/form&gt;
+                        </textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /CONTENT -->
+
+        <!-- FOOTER -->
+        <div class="tc tl-ns ph3 pv3 ph6-ns pv5-ns">
+            <div class="f6 fw3 i">
+                <p>
+                    Formularz kontaktowy dostarcza contactform.pl.
+                    <a href="#" class="white">Dowiedz się więcej.</a>
+                </p>
+                <p>
+                    Icon made by [author link] from www.flaticon.com
+                </p>
+            </div>
+        </div>
+        <!-- /FOOTER -->
+    </div>
+</body>
+</html>
